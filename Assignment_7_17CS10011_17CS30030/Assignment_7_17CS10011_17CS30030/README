@@ -1,0 +1,21 @@
+RUN as: make
+        ./user1 on one terminal
+        ./user2 on other terminal
+
+
+-> This works only for single server and client due to delayed duplicate.
+-> Restart user1.c and user2.c everytime
+
+--------------------------- TABLE FOR TRANSMISSION DATA --------------------------
+
+                p	n_t		lengt(string)		ratio
+                0.05	47		45			1.044
+                0.10	53		45			1.18
+                0.15	63		45			1.40
+                0.20	68		45			1.51
+                0.25	77		45			1.71
+                0.30	92		45			2.04
+                0.35	94		45			2.09
+                0.40	130		45			2.89
+                0.45	141		45			3.1333
+                0.50	151		45			3.356

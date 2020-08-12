@@ -1,0 +1,3 @@
+Execute Server as : make server
+Execute imageClient as : make clientt
+Execute dnsClient as : make clientd
